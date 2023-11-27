@@ -14,14 +14,14 @@ public class CompareToExample {
 			i++;
 			j++;
 		}
-		return n-m;
+		return n - m;
 
 	}
 
 	public static void main(String args[]) {
-		CompareToExample obj=new CompareToExample();
-		String s1="momen";
-		String s2="momen saifi";
+		CompareToExample obj = new CompareToExample();
+		String s1 = "momen";
+		String s2 = "momen saifi";
 		System.out.print(obj.compareTo(s1, s2));
 
 	}
